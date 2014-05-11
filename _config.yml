@@ -1,0 +1,59 @@
+# Dependencies
+markdown:	kramdown
+pygments:	true
+
+# Permalinks
+permalink: /posts/:title
+
+# Setup
+url: http://dennisideler.com
+title: “There is no real difference between work and play – it's all living.”
+subtitle: -Richard Branson
+tagline: Former Caribbean beach bum now writing code in Canada
+description: My parking spot on the internet
+commentsystem: google
+disqus:	example
+paginate:	5
+
+author:
+  name: Dennis Ideler
+  url: https://twitter.com/dideler
+  email: ideler.dennis@gmail.com
+
+gems:
+  - jekyll-sitemap
+
+# Custom vars
+handle: dideler
+icon:		/assets/images/icon.png
+cover:		/assets/images/cover.jpg
+
+social:
+  - icon:	twitter
+    url:	https://twitter.com/iancamporez
+    desc:	Follow me on twitter
+
+  - icon:	github
+    url:	https://github.com/camporez
+    desc:	Fork me on github
+
+  - icon:	googleplus-alt
+    url:	https://google.com/+IanCamporezBrunelli
+    desc:	Add me on google+
+
+  - icon:	feed
+    url:	http://camporez.com/atom.xml
+    desc:	Subscribe to my feed
+
+menu:
+  - title:	Home
+    url:	/
+
+  - title:	About
+    url:	/about
+
+copyright:
+  author:	Camporez
+  url:		http://camporez.com
+  type_title:	Some rights reserved
+  type_url:	http://creativecommons.org/licenses/by-nc/2.5
