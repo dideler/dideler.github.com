@@ -31,7 +31,7 @@ namespace :post do
       post.puts("layout: post")
       post.puts(%Q[title: "#{args.title.titlecase}"])
       post.puts("quote: false")  # Appears below the title.
-      post.puts("date: #{Time.new.strftime('%Y-%m-%d %H:%M:%S %z')}")  # Overrides the date from the name of the post. Useful for sorting posts.
+      post.puts("date: #{Time.new.strftime('%Y-%m-%d %H:%M')}")  # Overrides the date from the name of the post. Useful for sorting posts.
       post.puts("author: Dennis Ideler")
       post.puts("categories: []")
       post.puts("image: false")  # E.g. /media/2014-01-30-hello/cover.jpg or http://example.com/hi.png
