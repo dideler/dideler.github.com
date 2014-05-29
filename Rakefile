@@ -29,7 +29,7 @@ namespace :post do
     File.open(filename, "wb") do |post|
       post.puts("---")
       post.puts("layout: post")
-      post.puts("title: '#{args.title.titlecase}'")
+      post.puts(%Q[title: "#{args.title.titlecase}"])
       post.puts("quote: false")  # Appears below the title.
       post.puts("date: #{Time.new.strftime('%Y-%m-%d %H:%M:%S %z')}")  # Overrides the date from the name of the post. Useful for sorting posts.
       post.puts("author: Dennis Ideler")
