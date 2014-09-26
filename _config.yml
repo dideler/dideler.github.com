@@ -1,6 +1,6 @@
 # Dependencies
 markdown:	kramdown
-pygments:	true
+highlighter: pygments
 
 # Permalinks
 permalink: /posts/:title
@@ -8,7 +8,6 @@ permalink: /posts/:title
 # Setup
 url: http://dennisideler.com
 title: “There is no real difference between work and play – it's all living.”
-subtitle: -Richard Branson
 tagline: Former Caribbean beach bum now writing code in Canada
 description: My parking spot on the internet
 commentsystem: google
@@ -28,21 +27,22 @@ handle: dideler
 icon:		/assets/images/icon.png
 cover:		/assets/images/cover.jpg
 
+# TODO: add LinkedIn
 social:
   - icon:	twitter
-    url:	https://twitter.com/iancamporez
+    url:	https://twitter.com/dideler
     desc:	Follow me on twitter
 
   - icon:	github
-    url:	https://github.com/camporez
-    desc:	Fork me on github
+    url:	https://github.com/dideler
+    desc:	Follow me on github
 
   - icon:	googleplus-alt
-    url:	https://google.com/+IanCamporezBrunelli
-    desc:	Add me on google+
+    url:	https://plus.google.com/+DennisIdeler/about
+    desc:	Follow me on google+
 
   - icon:	feed
-    url:	http://camporez.com/atom.xml
+    url:	http://dennisideler.com/atom.xml
     desc:	Subscribe to my feed
 
 menu:
@@ -52,8 +52,9 @@ menu:
   - title:	About
     url:	/about
 
+# TODO: just my email
 copyright:
-  author:	Camporez
-  url:		http://camporez.com
-  type_title:	Some rights reserved
-  type_url:	http://creativecommons.org/licenses/by-nc/2.5
+  author:
+  url:
+  type_title: foo
+  type_url: foo@gmail.com
