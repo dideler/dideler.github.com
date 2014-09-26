@@ -58,3 +58,6 @@ copyright:
   url:
   type_title: foo
   type_url: foo@gmail.com
+
+# Google Analytics (add the UA Code, e.g.: UA-xxxxxxxx-1)
+google_analytics:
