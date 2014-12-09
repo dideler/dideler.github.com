@@ -8,8 +8,8 @@ permalink: /posts/:title
 # Setup
 url: http://dennisideler.com
 title: “There is no real difference between work and play – it's all living.”
-tagline: Former Caribbean beach bum now writing code in Canada
-description: My parking spot on the internet
+tagline: Some tagline
+description: Some description
 commentsystem: google
 disqus:	example
 paginate:	5
@@ -24,40 +24,38 @@ gems:
 
 # Custom vars
 handle: dideler
-icon:		/assets/images/icon.png
-cover:		/assets/images/cover.jpg
+icon: /assets/images/icon.png
+cover: /assets/images/cover.jpg
 
-# TODO: add LinkedIn
 social:
   - icon:	twitter
-    url:	https://twitter.com/dideler
+    url:  https://twitter.com/dideler
     desc:	Follow me on twitter
 
   - icon:	github
-    url:	https://github.com/dideler
+    url:  https://github.com/dideler
     desc:	Follow me on github
 
   - icon:	googleplus-alt
-    url:	https://plus.google.com/+DennisIdeler/about
+    url:  https://plus.google.com/+DennisIdeler/about
     desc:	Follow me on google+
 
   - icon:	feed
-    url:	http://dennisideler.com/atom.xml
+    url:  http://dennisideler.com/atom.xml
     desc:	Subscribe to my feed
 
 menu:
-  - title:	Home
-    url:	/
+  - title: Home
+    url: /
 
-  - title:	About
-    url:	/about
+  - title: About
+    url: /about
 
-# TODO: just my email
 copyright:
   author:
   url:
-  type_title: foo
-  type_url: foo@gmail.com
+  type_title:
+  type_url:
 
 # Google Analytics (add the UA Code, e.g.: UA-xxxxxxxx-1)
 google_analytics:
