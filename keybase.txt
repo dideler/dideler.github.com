@@ -1,0 +1,70 @@
+==================================================================
+https://keybase.io/dideler
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://dennisideler.com
+  * I am dideler (https://keybase.io/dideler) on keybase.
+  * I have a public key with fingerprint F2B1 E74A 6F36 BE8A 3E23  0C45 9A46 49F8 C7B2 1029
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "f2b1e74a6f36be8a3e230c459a4649f8c7b21029",
+            "host": "keybase.io",
+            "key_id": "9a4649f8c7b21029",
+            "uid": "2fbb51836c3e1ee1d62e7e79dd3f8700",
+            "username": "dideler"
+        },
+        "service": {
+            "hostname": "dennisideler.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1411422896,
+    "expire_in": 157680000,
+    "prev": "e91455a7fa5a05aeb115967d988edb17c8485e3ff629e257daa3f4e2ebaea937",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v1.0.5
+Comment: https://keybase.io/crypto
+
+yML8AnicO8LLzMDFOMvN88fxTQKajKcPfCllCFGYtaFaKSk/pVLJqlopOxVMpWXm
+pacWFRRl5pUoWSmlGSUZppqbJJqlGZslpVokGqcaGRskm5haJpqYmVimWSSbJxkZ
+GhhZKukoZeQXg3QAjUlKLE7Vy8wHigE58ZkpQFEs6kvBEkZpSUmmhhbGZsnGqYap
+qYYpZkap5qnmlikpxmkW5gYGIIXFqUV5ibmpQNUpmSmpOalFSrU6SkDBsszkVJCT
+QTbDFKTm5WUWQ1TpJefnArUXFOWX5Cfn5wBlM0pKCqxAmksqC0Cqy1OT4qHmxCdl
+5qUAvQ7UUJZaVJyZn6dkZQhUmVySCTLY0MTQ0MTIyMLSTEcptaIgsyg1PhOkwtTc
+zMIACEDWpJYBjUy1NDQxNU00T0s0TTQwTUxNMjQ0tTQzT7G0sEhNSTI0T7YwsTBN
+NU5LMzOyTDUyNU9JTDROM0k1Sk1KTE20NDZXAvmsMC9fycoE6MzEdKCRxZnpeYkl
+pUWpSrWHDsawMDByMbCxMoEij4GLUwAWpZN/8P932nbC0U6p6Wb9OxuZyT0HZsS6
+PJOfY58dq3N+Yzr7r4ZfWTzfopObNsfd3tnyIjfaysjj38S9O8tka/h+BL7n+Z+4
+pXbBU5/dTsdWz9C9d0HKPujjl/lP4krPx+4RMVXRviwqYjjP65rQ22d1P5aIfkwr
+WHd9VUiAxJua+uxjyz1O57zriaheEPp1sp33wcr1eXtXd769w/Fqa0oyX8qcjQdS
+ODWyuk9FafRNVBO72Xg4tifkxefW867Bd8rXLhWPnSLbFJ60l401LMIn/4SVkly9
+eOC/46Uvr5VK+uueM+x8ur/sVLTC+qu/i/TTNdc3+L6xtnsheyDu9rbQu0cZtwRH
+L5NQa3czcHL+Zbis8/oxx/e+UauSSpTNkvyn/BA4MCUhmfPx9UMc5fGerfxrJjYb
+e85ekaZSeNBoy6LHBauUZ+4oOpL+5br+qt0nmn/0/TZNnD/5VZZVVInv5pJJjGe/
+iBX3vqt/sELDZyHfVZl235XLohZw/wxTv++8PjjOTS7o9xa9O6sUQ4r/K/3anXYp
+nb2Yf5n42SPWb7af55Xc+frfy7ip02Y90P9RrcFaoiXzW2La1NLdn6PWZYSzB9xb
+tn39pF+95+7Unt1RpTxV5PWHfU2rT136u2jhleUqPFfW3FbZzfbwJ297EPdC73M7
+g21WlM3weJUjubLGIbCIyWTG82x9ZcPf8Z9VtljPm2a+4/38iPKZbJb5AGW1m3w=
+=QBPS
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dideler
+
+==================================================================
