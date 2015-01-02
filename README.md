@@ -5,6 +5,8 @@ My personal website.
 - Preview site with `rake site:preview`
 - Create a post with `rake post:new[title]`
 
+If a post doesn't have it's own cover image, it uses the site's cover image.
+
 ----
 
 Built on top of the [Thinny Jekyll theme](https://github.com/camporez/Thinny),
