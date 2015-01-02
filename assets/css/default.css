@@ -198,7 +198,7 @@ img {
 	border-bottom: 0px;
 }
 
-a.site-title:hover, .copyright a:hover {
+a.site-title:hover {
 	text-decoration: underline;
 }
 
@@ -383,7 +383,7 @@ pre code {
 	-moz-osx-font-smoothing: antialiased;
 	 -webkit-font-smoothing: antialiased;
 	         font-smoothing: antialiased;
-	
+
 	letter-spacing: 1.2pt;
 	font-size: 12px;
 	font-weight: 600;
@@ -466,13 +466,8 @@ pre code {
 .copyright {
 	color: inherit;
 	font-size: 14px;
-	text-transform: uppercase;
 	bottom: 10px;
 	position: absolute;
-}
-
-.copyright a {
-	text-decoration: none;
 }
 
 #post-list {

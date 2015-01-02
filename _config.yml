@@ -52,10 +52,7 @@ menu:
     url: /about
 
 copyright:
-  author:
-  url:
-  type_title:
-  type_url:
+  owner:
 
 # Google Analytics (add the UA Code, e.g.: UA-xxxxxxxx-1)
 google_analytics:
