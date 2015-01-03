@@ -516,3 +516,10 @@ pre code {
 	margin-top: 60px;
 	border-top: 1px solid #EEE;
 }
+
+.back-to-blog {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 14px;
+	text-align: center;
+}
