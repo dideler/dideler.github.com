@@ -26,6 +26,7 @@ article: true
 <div id="middle">
 	<div id="article">
 		{{ content }}
+    {% include improve.html %}
 	</div>
 	{% if site.commentsystem %}{% if page.comments != false %}
 	<div id="comments">
