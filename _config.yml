@@ -7,10 +7,10 @@ permalink: /posts/:title
 
 # Setup
 url: http://dennisideler.com
-title: “There is no real difference between work and play – it's all living.”
-tagline: Some tagline
-description: Some description
-commentsystem: google
+title: Dennis Ideler
+tagline:
+description:
+commentsystem:
 disqus:	example
 paginate:	5
 
