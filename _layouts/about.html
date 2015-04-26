@@ -1,0 +1,26 @@
+---
+layout: default
+article: true
+---
+
+<!-- <header class="{% if page.dark %}dark{% else %}clean{% endif %}" style="background-image: url({% if page.image %}{{ page.image }}{% else %}{{ site.cover }}{% endif %}); height: 100%;" data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50"> -->
+<header class="clean" style="height: 100%; background-image: url({% if page.image %}{{ page.image }}{% else %}{{ site.cover }}{% endif %});" data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50">
+  {% include top.html %}
+</div>
+<div id="post-info" style="bottom: 30px; text-align: center; line-height: 45px;" data-stellar-ratio="0.7">
+  <h1>{{ page.title }}</h1>
+</div>
+<div id="nav-icon" style="bottom: 30px;" data-stellar-ratio="4">
+  <a class="scroll" data-speed="500" href="#article"><span class="genericon genericon-expand"></span></a>
+</div>
+</header>
+<div id="middle">
+  <div id="article">
+    {{ content }}
+    {% include improve.html %}
+  </div>
+</div>
+<footer>
+  <p class="back-to-blog">« <a href="/">Back to blog</a></p>
+</footer>
+<script src="/assets/js/smooth-scroll.js"></script>
