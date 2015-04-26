@@ -9,7 +9,7 @@ permalink: /posts/:title
 url: http://dennisideler.com
 title: Dennis Ideler
 tagline:
-description:
+description: Admirer of open-source software, simplicity, usability, good documentation, and practice over theory.
 commentsystem:
 disqus:	example
 paginate:	5
@@ -22,27 +22,25 @@ author:
 gems:
   - jekyll-sitemap
 
-# Custom vars
-handle: dideler
-icon: /assets/images/icon.png
-cover: /assets/images/cover.jpg
+# icon: /assets/images/icon.png  # Icon appears in centre of cover
+cover: /assets/images/palm-trees.jpg
 
 social:
   - icon:	twitter
     url:  https://twitter.com/dideler
-    desc:	Follow me on twitter
+    desc:	Follow me on Twitter
 
   - icon:	github
     url:  https://github.com/dideler
-    desc:	Follow me on github
+    desc:	Follow me on GitHub
 
-  - icon:	googleplus-alt
-    url:  https://plus.google.com/+DennisIdeler/about
-    desc:	Follow me on google+
+  - icon:	linkedin
+    url:  http://www.linkedin.com/in/dennisideler
+    desc:	Connect on LinkedIn
 
   - icon:	feed
     url:  http://dennisideler.com/atom.xml
-    desc:	Subscribe to my feed
+    desc:	Subscribe to my RSS feed
 
 menu:
   - title: Home
