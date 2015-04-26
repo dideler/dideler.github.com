@@ -7,16 +7,15 @@ layout: default
 	<a href="{{ site.url }}">
 		<div id="home-title" class="site-icon-page" style="background-image: url({{ site.icon }});" data-stellar-ratio="0.7"></div>
 	</a>
-	</div>
 	<div id="post-info" style="bottom: 30px; text-align: center; line-height: 45px;" data-stellar-ratio="0.7">
 		<h1>{{ page.title }}</h1>
 	</div>
 </header>
 <div id="middle">
-<div id="article">
-	{{ content }}
-  {% include improve.html %}
-</div>
+  <div id="article">
+    {{ content }}
+    {% include improve.html %}
+  </div>
 </div>
 <footer class="clean" style="background-image: url({% if page.image %}{{ page.image }}{% else %}{{ site.cover }}{% endif %}); background-position: bottom; height: 60px;" data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50" data-stellar-vertical-offset="50">
 	{% if site.copyright.owner %}
