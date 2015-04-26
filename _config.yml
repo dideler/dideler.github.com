@@ -1,6 +1,15 @@
-# Dependencies
+# Build config
 markdown:	kramdown
 highlighter: pygments
+
+# Array of files/directories to exclude from the conversion
+exclude:
+  - CONTRIBUTING.md
+  - README.md
+  - LICENSE
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
 
 # Permalinks
 permalink: /posts/:title
