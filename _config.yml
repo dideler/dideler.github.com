@@ -4,7 +4,6 @@ highlighter: pygments
 
 # Array of files/directories to exclude from the conversion
 exclude:
-  - CONTRIBUTING.md
   - README.md
   - LICENSE
   - CNAME
@@ -32,7 +31,7 @@ author:
 gems:
   - jekyll-sitemap
 
-# icon: /assets/images/icon.png  # Icon appears in centre of cover
+# icon: /assets/images/icon.png  # Icon appears in centre of cover. 512x512 works well.
 cover: /assets/images/palm-trees.jpg
 
 social:
