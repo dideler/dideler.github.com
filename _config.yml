@@ -22,6 +22,7 @@ description: Admirer of open-source software, simplicity, usability, good docume
 commentsystem:
 disqus:	example
 paginate:	5
+branch: master
 
 author:
   name: Dennis Ideler
