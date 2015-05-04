@@ -1,5 +1,5 @@
 namespace :site do
-  desc "Build and preview the site in your browser"
+  desc "Builds and opens the site in your browser"
   task :preview do
     require "launchy"
 
@@ -13,9 +13,14 @@ namespace :site do
     system "bundle exec jekyll serve --watch"
   end
 
-  desc "Build the site"
+  desc "Builds the site"
   task :build do
     system "bundle exec jekyll build"
+  end
+
+  desc "Serves the site on port 4000"
+  task :serve do
+     system "ruby -run -e httpd ./_site -p 4000"
   end
 end
 
