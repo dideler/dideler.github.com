@@ -9,6 +9,7 @@ exclude:
   - CNAME
   - Gemfile
   - Gemfile.lock
+  - .ruby-version
 
 # Permalinks
 permalink: /posts/:title
