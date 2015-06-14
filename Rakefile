@@ -1,26 +1,19 @@
 namespace :site do
   desc "Builds and opens the site in your browser"
-  task :preview do
+  task :launch do
     require "launchy"
 
-    # Wait a few seconds for the site to generate, then open it in a browser.
     Thread.new do
-      sleep 4
+      sleep 4  # Wait a few seconds for the site to generate.
       Launchy.open("http://localhost:4000")
     end
 
-    # Build the site, watch for changes, and serve on localhost.
     system "bundle exec jekyll serve --watch"
   end
 
-  desc "Builds the site"
-  task :build do
-    system "bundle exec jekyll build"
-  end
-
-  desc "Serves the site on port 4000"
-  task :serve do
-     system "ruby -run -e httpd ./_site -p 4000"
+  desc "Serves the site on port 4000 while watching for changes"
+  task :preview do
+    system "bundle exec jekyll serve --watch"
   end
 end
 
