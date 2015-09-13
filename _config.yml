@@ -11,6 +11,8 @@ exclude:
   - Gemfile.lock
   - .ruby-version
 
+excerpt_separator: "<!-- more -->"
+
 # Permalinks
 permalink: /posts/:title
 
