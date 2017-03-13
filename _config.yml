@@ -1,6 +1,6 @@
 # Build config
-markdown:	kramdown
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
 
 # Array of files/directories to exclude from the conversion
 exclude:
