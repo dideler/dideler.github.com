@@ -23,7 +23,6 @@ tagline:
 description: Admirer of open-source software, simplicity, usability, good documentation, and practice over theory.
 commentsystem:
 disqus:	example
-paginate:	5
 branch: master
 
 author:
@@ -33,7 +32,6 @@ author:
 
 gems:
   - jekyll-sitemap
-  - jekyll-paginate
 
 # icon: /assets/images/icon.png  # Icon appears in centre of cover. 512x512 works well.
 cover: /assets/images/palm-trees.jpg
