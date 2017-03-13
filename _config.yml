@@ -33,6 +33,7 @@ author:
 
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
 
 # icon: /assets/images/icon.png  # Icon appears in centre of cover. 512x512 works well.
 cover: /assets/images/palm-trees.jpg
