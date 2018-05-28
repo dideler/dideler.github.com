@@ -16,6 +16,13 @@ excerpt_separator: "<!-- more -->"
 # Permalinks
 permalink: /notes/:title
 
+# YAML frontmatter defaults
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
+
 # Setup
 url: https://dideler.github.io
 title: Dennis Ideler
