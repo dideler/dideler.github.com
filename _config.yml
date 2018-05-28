@@ -14,7 +14,7 @@ exclude:
 excerpt_separator: "<!-- more -->"
 
 # Permalinks
-permalink: /posts/:title
+permalink: /notes/:title
 
 # Setup
 url: http://dennisideler.com
