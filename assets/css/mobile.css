@@ -72,6 +72,11 @@ h2 {
   margin-left: 0px;
 }
 
+#post-list h1 {
+  font-size: 1.45rem;
+  line-height: 1.65rem;
+}
+
 .pagination {
   padding-top: 30px;
 }

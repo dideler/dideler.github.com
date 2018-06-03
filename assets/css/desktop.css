@@ -71,6 +71,11 @@ footer {
   margin-left: -350px;
 }
 
+#post-list h1 {
+  font-size: 30pt;
+  line-height: 44px;
+}
+
 .copyright {
   right: 20px;
 }
