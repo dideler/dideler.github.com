@@ -11,6 +11,10 @@ exclude:
   - Gemfile.lock
   - .ruby-version
 
+# Array of files/directories to include that would otherwise be excluded by Jekyll (e.g. dotfiles)
+include:
+  - .well-known
+
 excerpt_separator: "<!-- more -->"
 
 # Permalinks
