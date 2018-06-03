@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/dideler
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dideler.github.io
+  * I am dideler (https://keybase.io/dideler) on keybase.
+  * I have a public key ASCZ-zKRi4tsgConaYw1Il11KFV67wcFI8IlpG9iYovPIwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101edaf406ddf65fd4fddae6e6d2d3b2f6c47a97651a3809deea770b39c54e013ec0a",
+      "host": "keybase.io",
+      "kid": "012099fb32918b8b6c802a27698c35225d7528557aef070523c225a46f62628bcf230a",
+      "uid": "2fbb51836c3e1ee1d62e7e79dd3f8700",
+      "username": "dideler"
+    },
+    "merkle_root": {
+      "ctime": 1528048966,
+      "hash": "48c3d7515d7881f929ec52fd133d57df945e15248007f27926a6396adaf6f5851429fce82f0660ed0407744572bf9603675250e27ac483e28f0b0def3139074d",
+      "hash_meta": "3ab1680f1ddd817ce288e20a45c6a1b2b45cd0635159cf4f61721844ef6523a3",
+      "seqno": 2985684
+    },
+    "service": {
+      "entropy": "6JD7m5yoogh7/49KpwGqwgpW",
+      "hostname": "dideler.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.48"
+  },
+  "ctime": 1528049005,
+  "expire_in": 504576000,
+  "prev": "b19fe589dfbbd335645d23ba4d9881c447e363a0f7e40943bc0aeb34aa061b0f",
+  "seqno": 37,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgmfsykYuLbIAqJ2mMNSJddShVeu8HBSPCJaRvYmKLzyMKp3BheWxvYWTESpcCJcQgsZ/lid+70zVkXSO6TZiBxEfjY6D35AlDvArrNKoGGw/EIGba01CfDSaQgZNrC2LKSQITRIdyoMqrYvfbnkHPBPM6AgHCo3NpZ8RAjosROKbIyo7KzHsDqrrzRnxZb3w4FVhaIL5dx8kxGARs9eB4FW2peCRYUGlGCqaavlQB99DnlPr3NH7Qr0K7CqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHnDUGR22gZrS5tf65SMXUQbg3cXD11WMHxhi8TywIHIo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dideler
+
+==================================================================
