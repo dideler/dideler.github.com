@@ -2,6 +2,9 @@
 markdown: kramdown
 highlighter: rouge
 
+# Server config
+host: 0.0.0.0  # Bind server to all local IPs instead of just localhost.
+
 # Array of files/directories to exclude from the conversion
 exclude:
   - README.md
