@@ -4,38 +4,39 @@ title: Home
 ---
 
 <header class="clean" style="height: 350px; background-image: url({{ site.cover }});" data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50">
-	{% include top.html %}
-	<a href="{{ site.url }}">
-		<div id="home-title" class="site-icon-home" style="background-image: url({{ site.icon }});" data-stellar-ratio="0.5"></div>
-	</a>
+  {% include top.html %}
+  <a href="{{ site.url }}">
+    <div id="home-title" class="site-icon-home" style="background-image: url({{ site.icon }});" data-stellar-ratio="0.5">
+    </div>
+  </a>
 </header>
 <div id="middle">
 <div id="post-list">
-	{% for post in site.posts %}
-		<div>
-			<span class="post-date">{{ post.date | date_to_long_string }}</span>
-			<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-			<p class="post-description">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-		</div>
-		<br>
-	{% endfor %}
+  {% for post in site.posts %}
+    <div>
+      <span class="post-date">{{ post.date | date_to_long_string }}</span>
+      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+      <p class="post-description">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+    </div>
+    <br>
+  {% endfor %}
 </div>
 <nav class="pagination" role="navigation">
-	{% if site.next_page %}
-		<a class="newer-posts" href="/page{{site.next_page}}">&larr; Older posts</a>
-	{% endif %}
-	<span class="page-number">Page {{ site.page }} of {{ site.total_pages }}</span>
-	{% if site.previous_page %}
-		{% if site.page == 2 %}
-			<a class="older-posts" href="/">Newer posts &rarr;</a>
-		{% else %}
-			<a class="older-posts" href="/page{{site.previous_page}}">Newer posts &rarr;</a>
-		{% endif %}
-	{% endif %}
+  {% if site.next_page %}
+    <a class="newer-posts" href="/page{{site.next_page}}">&larr; Older posts</a>
+  {% endif %}
+  <span class="page-number">Page {{ site.page }} of {{ site.total_pages }}</span>
+  {% if site.previous_page %}
+    {% if site.page == 2 %}
+      <a class="older-posts" href="/">Newer posts &rarr;</a>
+    {% else %}
+      <a class="older-posts" href="/page{{site.previous_page}}">Newer posts &rarr;</a>
+    {% endif %}
+  {% endif %}
 </nav>
 </div>
 <footer class="clean" style="background-image: url({{ site.cover }}); background-position: bottom; height: 60px;">
-	{% if site.copyright.owner %}
-		<p class="copyright">&copy; {{ site.time | date: "%Y" }} {{ site.copyright.owner }}</p>
-	{% endif %}
+  {% if site.copyright.owner %}
+    <p class="copyright">&copy; {{ site.time | date: "%Y" }} {{ site.copyright.owner }}</p>
+  {% endif %}
 </footer>
